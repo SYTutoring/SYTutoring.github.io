@@ -1,35 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="index.css">
-    <style>
-
-    </style>
-    <title>Home Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SY Tutoring & Pet Services</title>
+    <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-gray-50 text-gray-800">
 
-<div class="topnav">
-    <a class="active" href="#index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="contact.html">Contact</a>
-</div>
+    <!-- Navigation -->
+    <nav class="bg-white border-b border-gray-200 p-4">
+        <div class="container mx-auto flex flex-wrap items-center justify-between">
+            <a href="#" class="text-xl font-semibold text-blue-600">SY Tutoring & Pet Services</a>
+            
+        </div>
+    </nav>
 
+    <!-- Header -->
+    <header class="bg-white text-center py-16">
+        <h1 class="text-4xl font-bold text-gray-800">Empowering Students and Pet Owners</h1>
+        <p class="text-gray-600 mt-4 mb-8 mx-auto max-w-lg">
+            We believe in nurturing both the minds of young learners and the wellbeing of your pets. Discover our personalized tutoring services and compassionate pet care today.
+        </p>
+    </header>
 
-<div class="header">
-<h1>SY Tutoring</h1>
-</div>
+    <!-- Services Section -->
+    <section id="services" class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Services We Offer</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Tutoring Service Box -->
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-2xl font-semibold text-blue-600 mb-3">Tutoring Services</h3>
+                    <p class="text-gray-700">
+                        Our comprehensive tutoring covers a range of subjects for grades JK to 8. Our approach is tailored to each student's unique learning style to foster understanding and growth.
+                    </p>
+                </div>
+                <!-- Pet Service Box -->
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-2xl font-semibold text-blue-600 mb-3">Pet Care Services</h3>
+                    <p class="text-gray-700">
+                        Trust us to look after your pets with our array of services including pet sitting, walking, and grooming. We treat your pets with the same love and care they receive at home.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="bg-blue-50 py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Get in Touch</h2>
+            <p class="text-gray-600 mb-8 mx-auto max-w-md">
+                Have questions or want to schedule a service? Reach out to us, and we'll get back to you promptly.
+            </p>
+            <a href="mailto:TutoringForSy@gmail.com" class="text-blue-600 hover:underline">TutoringForSy@gmail.com</a>
+            <p class="mt-2">Call Us: (647)-671-1038</p>
+            <p class="text-gray-600">London ON, Canada</p>
+        </div>
+    </section>
 
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 text-center py-6">
+        <p class="text-gray-600">&copy; 2024 SY Tutoring & Pet Services. All rights reserved.</p>
+    </footer>
 
-<div class="back">
+   
 
-</div>
-
-<div class="jumbotron text-center" style="margin-bottom: 50px">
-    <p align="center">Sandra Young - 2021</p>
-</div>
 
 </body>
 </html>
